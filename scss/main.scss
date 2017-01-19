@@ -1,0 +1,48 @@
+@import "./imports/primarynavbar";
+@import "./imports/secondarynavbar";
+@import "./imports/image-links";
+
+* {
+    box-sizing: border-box
+}
+
+img{
+  width: 100%;
+  display: block;
+}
+
+body{
+  font-family: "Hind", "Futura", "sans-serif";
+}
+
+.column-container{
+  font-size: 0;
+  > * {
+    display: inline-block;
+    vertical-align: top;
+    font-size: medium;
+  }
+}
+
+
+
+@media screen and (min-width: 1000px){
+
+  .primarynavbar-mobile{
+    display: none;
+  }
+  .primarynavbar-desktop{
+    display: block;
+  }
+
+  .secondarynavbar .menuicon{
+    display: none;
+  }
+
+  .secondarynavbar .concept,
+  .secondarynavbar .location{
+    display: inline-block;
+  }
+
+
+}

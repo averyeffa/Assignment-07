@@ -1,0 +1,26 @@
+.primarynavbar-desktop{
+  display: none;
+}
+
+.primarynavbar-mobile{
+  padding: 24px 24px;
+}
+
+.primarynavbar-mobile .logo,
+.primarynavbar-mobile .menuicon{
+  width: 20%;
+  height: 80px;
+  border-bottom: 1px #ccc solid;
+}
+
+.primarynavbar-mobile img{
+  max-width: 70px;
+}
+
+.primarynavbar-mobile .restaurants,
+.primarynavbar-mobile .ventures{
+  width: 30%;
+  border-right: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  height: 80px;
+}

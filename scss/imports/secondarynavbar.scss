@@ -1,0 +1,21 @@
+.secondarynavbar{
+  background-color: #000;
+  color: #FFF;
+  padding: 16px 0px;
+  margin: 0;
+}
+
+.secondarynavbar .concept,
+.secondarynavbar .location{
+  display: none;
+}
+
+.secondarynavbar .restaurants{
+  width: 80%;
+  padding-left: 16px;
+}
+
+.secondarynavbar .menuicon{
+  width: 20%;
+  text-align: center;
+}
