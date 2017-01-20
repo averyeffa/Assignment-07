@@ -1,26 +1,44 @@
+.primarynavbar-mobile.column-container{
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1;
+}
+
 .primarynavbar-desktop{
   display: none;
 }
 
-.primarynavbar-mobile{
-  padding: 24px 24px;
-}
-
-.primarynavbar-mobile .logo,
-.primarynavbar-mobile .menuicon{
+.logo1,
+.menuicon1{
   width: 20%;
-  height: 80px;
-  border-bottom: 1px #ccc solid;
-}
-
-.primarynavbar-mobile img{
-  max-width: 70px;
-}
-
-.primarynavbar-mobile .restaurants,
-.primarynavbar-mobile .ventures{
-  width: 30%;
+  height: 70px;
   border-right: 1px #ccc solid;
   border-bottom: 1px #ccc solid;
-  height: 80px;
+  text-align: center;
+}
+
+.menuicon1 i{
+  font-size: 36px;
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+.logo1 img{
+  max-width: 70px;
+  padding-right: 15px;
+  padding-top: 5px;
+}
+
+.restaurants1,
+.ventures1{
+  width: 30%;
+  height: 70px;
+  border-right: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  text-align: center;
+  padding-top: 20px;
 }

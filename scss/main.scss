@@ -11,6 +11,10 @@ img{
   display: block;
 }
 
+#app-container{
+  position: relative;
+}
+
 body{
   font-family: "Hind", "Futura", "sans-serif";
 }
@@ -28,11 +32,40 @@ body{
 
 @media screen and (min-width: 1000px){
 
-  .primarynavbar-mobile{
+  .mobile{
     display: none;
   }
+
   .primarynavbar-desktop{
     display: block;
+    position: fixed;
+    height: 100%;
+    width: 160px;
+    background-color: #FFF;
+    margin: 0;
+    left: 0px;
+    top: 0px;
+  }
+
+  .logo2,
+  .reservations2{
+    height: 35%;
+  }
+
+  .restaurants2,
+  .company2,
+  .ventures2{
+    height: 10%;
+  }
+
+  .desktop img{
+    width: 150px;
+  }
+
+  .secondarynavbar{
+    position: absolute;
+    left: 160px;
+    top: 0px;
   }
 
   .secondarynavbar .menuicon{
@@ -42,6 +75,36 @@ body{
   .secondarynavbar .concept,
   .secondarynavbar .location{
     display: inline-block;
+    font-size: 13px;
+  }
+
+  .secondarynavbar .restaurants{
+    font-size: 13px;
+  }
+
+  .image-links{
+    position: absolute;
+    left: 160px;
+  }
+
+  .image-links__column{
+    width: 48%;
+    max-height: 360px;
+    margin-left: 1px;
+    margin-right: 1px;
+  }
+
+  .ssam{
+    margin-top: 24px;
+  }
+
+  .shoto{
+    margin-bottom: 24px;
+  }
+
+  .nikai,
+  .milk{
+    display: none;
   }
 
 

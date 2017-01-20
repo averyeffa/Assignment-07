@@ -1,45 +1,68 @@
+.primarynavbar-mobile.column-container {
+  margin: 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 1; }
+
 .primarynavbar-desktop {
   display: none; }
 
-.primarynavbar-mobile {
-  padding: 24px 24px; }
-
-.primarynavbar-mobile .logo,
-.primarynavbar-mobile .menuicon {
+.logo1,
+.menuicon1 {
   width: 20%;
-  height: 80px;
-  border-bottom: 1px #ccc solid; }
-
-.primarynavbar-mobile img {
-  max-width: 70px; }
-
-.primarynavbar-mobile .restaurants,
-.primarynavbar-mobile .ventures {
-  width: 30%;
+  height: 70px;
   border-right: 1px #ccc solid;
   border-bottom: 1px #ccc solid;
-  height: 80px; }
+  text-align: center; }
+
+.menuicon1 i {
+  font-size: 36px;
+  padding-top: 15px;
+  padding-right: 10px; }
+
+.logo1 img {
+  max-width: 70px;
+  padding-right: 15px;
+  padding-top: 5px; }
+
+.restaurants1,
+.ventures1 {
+  width: 30%;
+  height: 70px;
+  border-right: 1px #ccc solid;
+  border-bottom: 1px #ccc solid;
+  text-align: center;
+  padding-top: 20px; }
 
 .secondarynavbar {
   background-color: #000;
   color: #FFF;
   padding: 16px 0px;
-  margin: 0; }
+  margin: 0;
+  letter-spacing: 2px;
+  position: absolute;
+  width: 100%;
+  top: 60px; }
 
 .secondarynavbar .concept,
 .secondarynavbar .location {
   display: none; }
 
-.secondarynavbar .restaurants {
+.restaurants {
   width: 80%;
   padding-left: 16px; }
 
-.secondarynavbar .menuicon {
+.menuicon {
   width: 20%;
   text-align: center; }
 
 .image-links {
-  text-align: center; }
+  text-align: center;
+  position: absolute;
+  top: 120px; }
 
 .image-links i {
   font-size: 4px; }
@@ -95,12 +118,20 @@
   margin-bottom: 24px;
   background-image: url(https://momofuku-assets.s3.amazonaws.com/uploads/2015/04/milk-bar1.jpg); }
 
+.image-links__column img {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto; }
+
 * {
   box-sizing: border-box; }
 
 img {
   width: 100%;
   display: block; }
+
+#app-container {
+  position: relative; }
 
 body {
   font-family: "Hind", "Futura", "sans-serif"; }
@@ -113,17 +144,65 @@ body {
     font-size: medium; }
 
 @media screen and (min-width: 1000px) {
-  .primarynavbar-mobile {
+  .mobile {
     display: none; }
 
   .primarynavbar-desktop {
-    display: block; }
+    display: block;
+    position: fixed;
+    height: 100%;
+    width: 160px;
+    background-color: #FFF;
+    margin: 0;
+    left: 0px;
+    top: 0px; }
+
+  .logo2,
+  .reservations2 {
+    height: 35%; }
+
+  .restaurants2,
+  .company2,
+  .ventures2 {
+    height: 10%; }
+
+  .desktop img {
+    width: 150px; }
+
+  .secondarynavbar {
+    position: absolute;
+    left: 160px;
+    top: 0px; }
 
   .secondarynavbar .menuicon {
     display: none; }
 
   .secondarynavbar .concept,
   .secondarynavbar .location {
-    display: inline-block; } }
+    display: inline-block;
+    font-size: 13px; }
+
+  .secondarynavbar .restaurants {
+    font-size: 13px; }
+
+  .image-links {
+    position: absolute;
+    left: 160px; }
+
+  .image-links__column {
+    width: 48%;
+    max-height: 360px;
+    margin-left: 1px;
+    margin-right: 1px; }
+
+  .ssam {
+    margin-top: 24px; }
+
+  .shoto {
+    margin-bottom: 24px; }
+
+  .nikai,
+  .milk {
+    display: none; } }
 
 /*# sourceMappingURL=styles.css.map */
