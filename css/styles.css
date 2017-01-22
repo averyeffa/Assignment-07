@@ -37,15 +37,12 @@
   text-align: center;
   padding-top: 20px; }
 
-.secondarynavbar {
-  background-color: #000;
-  color: #FFF;
-  padding: 16px 0px;
-  margin: 0;
-  letter-spacing: 2px;
-  position: absolute;
+.secondarynavbar.column-container {
+  margin-top: 70px;
   width: 100%;
-  top: 60px; }
+  position: relative;
+  margin-left: 0;
+  margin-right: 0; }
 
 .secondarynavbar .concept,
 .secondarynavbar .location {
@@ -53,16 +50,30 @@
 
 .restaurants {
   width: 80%;
-  padding-left: 16px; }
+  background-color: #000;
+  color: #FFF;
+  padding: 16px;
+  margin: 0;
+  letter-spacing: 2px;
+  top: 60px; }
 
 .menuicon {
   width: 20%;
-  text-align: center; }
+  text-align: center;
+  background-color: #000;
+  color: #FFF;
+  padding: 16px;
+  margin: 0;
+  letter-spacing: 2px;
+  top: 60px; }
+
+.mobile.fa {
+  font-size: 36px; }
 
 .image-links {
   text-align: center;
   position: absolute;
-  top: 120px; }
+  top: 80px; }
 
 .image-links i {
   font-size: 4px; }
@@ -82,13 +93,14 @@
 
 .image-links__body-text {
   color: #FFF;
-  font-size: 12px;
+  font-size: 14px;
   margin: 0px;
-  padding-top: 5%; }
+  padding-top: 5%;
+  letter-spacing: 2px; }
 
 .noodle {
   margin-top: 24px;
-  background-image: url(/Users/averyeffa/TIY/Assignments/assignment-07/images/momofuko-01-noodlebarbowl_mini.jpg); }
+  background-image: url(/Users/averyeffa/tiy/Assignments/assignment-07/images/momofuko-01-noodlebarbowl_mini.jpg); }
 
 .ssam {
   background-image: url(/Users/averyeffa/TIY/Assignments/assignment-07/images/momofuko-02-ssam-bar.jpg); }
@@ -134,7 +146,8 @@ img {
   position: relative; }
 
 body {
-  font-family: "Hind", "Futura", "sans-serif"; }
+  font-family: "Hind", "Futura", "sans-serif";
+  margin: 0; }
 
 .column-container {
   font-size: 0; }
@@ -151,39 +164,77 @@ body {
     display: block;
     position: fixed;
     height: 100%;
-    width: 160px;
+    width: 170px;
     background-color: #FFF;
-    margin: 0;
-    left: 0px;
-    top: 0px; }
+    text-align: center;
+    border-right: 1px #ccc solid;
+    letter-spacing: 2px;
+    font-size: 14px; }
 
-  .logo2,
-  .reservations2 {
-    height: 35%; }
+  .logo2 {
+    padding-top: 24px;
+    padding-bottom: 90px;
+    padding-right: 6px; }
 
   .restaurants2,
-  .company2,
-  .ventures2 {
-    height: 10%; }
+  .ventures2,
+  .reservations2 {
+    border-top: 1px #ccc solid;
+    padding-top: 16px;
+    padding-bottom: 16px; }
 
-  .desktop img {
+  .company2 {
+    border-top: 1px #ccc solid;
+    padding-top: 32px;
+    padding-bottom: 16px; }
+
+  .desktop.company2 p {
+    margin-top: 0px;
+    margin-bottom: 0px; }
+
+  .reservations2 {
+    padding-top: 24px; }
+
+  .reservations2 i {
+    padding-left: 4px;
+    padding-right: 4px; }
+
+  .desktop.logo2 img {
     width: 150px; }
 
-  .secondarynavbar {
-    position: absolute;
-    left: 160px;
+  .desktop img {
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .secondarynavbar.column-container {
+    position: fixed;
+    left: 170px;
+    margin-top: 0px;
+    z-index: 1;
+    width: 100%;
     top: 0px; }
 
   .secondarynavbar .menuicon {
     display: none; }
 
+  .secondarynavbar .restaurants {
+    width: 55%;
+    background-color: #000;
+    color: #FFF;
+    padding: 16px;
+    margin: 0;
+    letter-spacing: 2px; }
+
   .secondarynavbar .concept,
   .secondarynavbar .location {
     display: inline-block;
-    font-size: 13px; }
-
-  .secondarynavbar .restaurants {
-    font-size: 13px; }
+    width: 15%;
+    background-color: #000;
+    color: #FFF;
+    padding: 16px;
+    margin: 0;
+    letter-spacing: 2px; }
 
   .image-links {
     position: absolute;

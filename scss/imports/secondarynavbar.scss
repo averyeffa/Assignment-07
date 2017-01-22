@@ -1,12 +1,9 @@
-.secondarynavbar{
-  background-color: #000;
-  color: #FFF;
-  padding: 16px 0px;
-  margin: 0;
-  letter-spacing: 2px;
-  position: absolute;
+.secondarynavbar.column-container{
+  margin-top: 70px;
   width: 100%;
-  top: 60px;
+  position: relative;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .secondarynavbar .concept,
@@ -16,10 +13,25 @@
 
 .restaurants{
   width: 80%;
-  padding-left: 16px;
+  background-color: #000;
+  color: #FFF;
+  padding: 16px;
+  margin: 0;
+  letter-spacing: 2px;
+  top: 60px;
 }
 
 .menuicon{
   width: 20%;
   text-align: center;
+  background-color: #000;
+  color: #FFF;
+  padding: 16px;
+  margin: 0;
+  letter-spacing: 2px;
+  top: 60px;
+}
+
+.mobile.fa{
+  font-size: 36px;
 }
